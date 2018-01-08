@@ -59,7 +59,6 @@ background:  #ECEFF1;
     }
     
     .wrapper {
-      align-item: center;
       display: flex;
       justify-content: space-between;
     }
