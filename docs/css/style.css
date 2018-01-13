@@ -240,9 +240,11 @@ width is set to 10% for spacing between elements. */
 
 }
 
+/* contact form in the footer. Width has been set to 50% of the page. Text has been floated left of the icons
+for formatting. Colour of the text is set to white, with a bold weighting and 25px size. */
+
 .footer .icons .contact{
 width:50%;
-display:inline-block;
 float:left;
 color:white;
 font-weight:bold;
@@ -250,6 +252,8 @@ font-size:25px;
 
 
 }
+
+/* 50px border radius gives the icons in the footer a circular appearance. */ 
 
 .footer .icons .logo img{
 border-radius:50px;
