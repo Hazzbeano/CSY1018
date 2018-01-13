@@ -179,8 +179,11 @@ to 20px. floated left to format next to the picture. */
 
 width: 100%;
 
-
 }
+
+/* title for video content. Given 90% width of the page. Font size is 23px. Colour of text is white. Background colour
+is set to #455A64. Padding left 10% and text align left are for text formatting. Margin at the bottom of 10px for
+formatting reasons. */
 
 .title{
 
@@ -194,12 +197,20 @@ width: 100%;
 
 }
 
+/* Video content area has a width of 90% for formatting. Looks better than 100%. Margin 0 auto centers the
+videocontent in this case. */ 
+
 .video .videocontent{
 
     width: 90%;
     margin: 0 auto;
 
 }
+
+/* Footer has been given padding-top, padding-bottom 50px for formatting reasons. the footer is given 100%
+width of the webpage. height:auto adjusts the footer, responsive design. background: #455A64 sets background
+colour. float:left is set for formatting. */
+
 .footer{
 padding-top:50px;
 width:100%;
@@ -209,16 +220,22 @@ padding-bottom:50px;
 float:left;
 
 }
+
+/* icons are set to float:left for formatting. height:auto adjusts the icons, responsive design. */
+
 .footer .icons{
 
 float:left;
     height:auto;
 
 }
+
+/* logos in the footer have padding-left 50px for formatting. float:left sets logo position to the left.
+width is set to 10% for spacing between elements. */
+
 .footer .icons .logo{
     padding-left:50px;
     float:left;
-    display: inline-block;
     width:10%;
 
 }
