@@ -358,6 +358,10 @@ width:100% !important;
 
 }
 
+.container .mgp .description .p {
+
+    text-align: left;
+}
 
 
 /* Sets the subtitles for the MGP page. width to 90% of webpage. Font size is set to 20px. Colour of text is white.
