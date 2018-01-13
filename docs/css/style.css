@@ -297,34 +297,40 @@ text-align: center;
 }
 
 
+/* Text box formatting for the comparisons. Margins are set for auto. Width and height is set to 500px each.
+Displayed as inline blocks for page formatting. Margin of 20px is set to the left of the page for formatting
+vertical-align, aligns the div text at the top of the page, making the alignment of the div'd boxes go to the top. 
+Before this was applied, they were aligned in different ways and were not the same. Border thickness of 1px is set
+around the text boxes in the colour #455A64. 10px margin set at the bottom for formatting. */ 
 
 .container .comparison .col{
-
-    margin: 0 auto;
+margin: 0 auto;
 width:500px;
 height:500px;
 display: inline-block;
 margin-left: 20px;
-vertical-align: top; /* Aligns the div text at the top of the page, making the alignment of the div'd boxes go to the top. Before this was applied, they were aligned in different ways and were not the same. */
+vertical-align: top;
 border: #455A64 1px solid;
-
 margin-bottom: 10px;    
 }
+
+/* Subtitles inside the individual text boxes. Width of 100% inside the text box. Font size of 20px.
+Background colour of #455A64 for the title. White text colour. */
 
 .container .comparison .col .subtitle{
 width:100%;
 font-size:20px;
 background: #455A64;
 color:white;
-
 }
 
+/*  Formatting for hte unordered list in the third text box. Sets the text to align along the left side. */
 
 .container .comparison .col .description ul{
 text-align: left;
-
-
 }
+
+
 
 .container .comparison .col .description p{
 
