@@ -401,7 +401,7 @@ display: inline-block;
 
 
 }
-
+/* edits to navbar and container to help with resposive navbar */
 .navBar ul a{
 width: 20px;
 
@@ -414,9 +414,9 @@ width: 20px;
 
     }
     .container .comparison .col{
-            width:50%;;
+            width:50%;
             height:auto;
-
+/* end of navbar edits */
 
     }
 }
