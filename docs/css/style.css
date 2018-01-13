@@ -1,6 +1,8 @@
+/* removes margins around the body, sets the font in use. Sets the backround color of the body.  */
+
 body{
 
-margin: 0 auto;   /* removes margins around the body  */
+margin: 0 auto;   
 font-family: 'open sans', sans-serif;
 background:  #ECEFF1;
 
@@ -78,7 +80,8 @@ display: inline-block;
 
 }
 
-/* The teamheader contains rules that make up the heading/title for the page/section. Width is set to 90% because the padding makes up the other 10% and height is determined by the size of the fonts */
+/* The teamheader contains rules that make up the heading/title for the page/section. 
+Width is set to 90% because the padding makes up the other 10% and height is determined by the size of the fonts */
 .team .teamheader{
 
     width: 90%;
@@ -92,19 +95,23 @@ display: inline-block;
 }
 
 
-
+/* The item class contrains rules that contribute to the header on the index page. Width is set to 100% of the page width.
+height is automatic, depending on the text. Margin 0 sets top and bottom margins, auto sets left and right margins. */
 .team .item{
 
 
-        width: 100%;
+        width: 100%; 
         height: auto;  
         margin: 0 auto;
-        display: inline-block;
         
-
-
+    
 
 }
+/* The picture class contains rules that contribute to the text on the index page. Width is set to 29% so that it is
+centered on the page when placed against the text next to it. Background-size contain, will scale the image without
+cropping it. no-repeat prevents the image from being shown more than once. center sets the position so it is central.
+float left is used for formatting, it allows the text to sit next to the image on the page. Margin 20% sets the spacing
+for the index page to look centered. */
 
 .team .item .picture {
     width: 29%;
@@ -112,9 +119,7 @@ display: inline-block;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    /* text-align: center; */
-    display: inline-block;
-    float: left;
+    float: left;    
     margin-left: 20%;
 
 
@@ -122,10 +127,15 @@ display: inline-block;
 
 .team .item .picture img {
 
-border-radius: 600px;
+border-radius: 600px;    /* formatting on index photo */
 
 
 }
+
+/* Used for formatting the header on the index page. Color white, sets the text to white. 
+Width 100% sets the width of the box to 100% webpage width. auto height is used to match font size.
+text-align:center is used to centralise the text in the header. font-size: 23px sets the text size.
+background-color: #455A64 sets the header colour. Margin bottom 20px; sets the bottom margin to the header. */
 
 .team .item .header{
     
@@ -136,10 +146,14 @@ border-radius: 600px;
     text-align: center;
     font-size: 23px;
     background-color: #455A64;
-margin-bottom: 20px;
+    margin-bottom: 20px;
 
 
 }
+
+/* Used for formatting the description text on the index page. Width 50% gives the text half of the usable webpage.
+height auto is used to wrap around the text, depending on font size. Aligned left for formatting. Font size is set
+to 20px. floated left to format next to the picture. */
 
 .team .item .description{
 
@@ -147,19 +161,19 @@ margin-bottom: 20px;
     height: auto;
     text-align: left;
     font-size: 20px;
-    display: inline-block;
     float: left;
 }
 
-
-
-.team .item .description p{
+/* Text formatting for the text in the description */
+.team .item .description    p{
 
     margin: 0;
     margin-top: 5px;
 
 
 }
+
+/* video page is given 100% width */
 
 .video{
 
@@ -176,7 +190,7 @@ width: 100%;
     background-color: #455A64;
     padding-left: 10%;
     text-align: left;
-margin-bottom: 10px;
+    margin-bottom: 10px;
 
 }
 
