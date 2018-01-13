@@ -347,21 +347,15 @@ the left and right sides.*/
 
 
 
-.container .mgp .description ul{
-    
-padding:0;
 }
-
-.container .mgp .description ul li{
-width:100% !important;
-
-
-}
+ /* left align text in paragraph */
 
 .container .mgp .description .p {
 
     text-align: left;
 }
+
+/* Set spacing to centralise text position of paragraph on page */
 
 .paragraph {
     width: 80%;
