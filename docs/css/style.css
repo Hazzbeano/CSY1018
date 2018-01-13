@@ -262,24 +262,21 @@ border-radius:50px;
 
 }
 
-
+/* unordered list on glossary content. Sets the width of each list to 40%. float left is used for formatting, it 
+allows the lists to be placed next to each other. text has been centered with a 5% padding either side of the list. 
+list-style-type: none; removes bulletpoints. */
 
 .container .glossary .content ul{
 width: 40%;
-display: inline-block;
 float:left;
 text-align: center;
 padding-left: 5%;
 list-style-type: none;
 
-
-
-
-
-
 }
 
-
+/* Used for formatting the page to place a link to an online glossary. Spacing is set to 100% of the webpage.
+Text has been centered and floated left for formatting. */  
 
 .container .glossary .description{
 
@@ -290,14 +287,15 @@ list-style-type: none;
 
 }
 
+/* Header for the comparison webpage. header is given 100% width of the page, text is centered. */
 
 .container .comparison{
 
 width:100%;
 text-align: center;
 
-
 }
+
 
 
 .container .comparison .col{
