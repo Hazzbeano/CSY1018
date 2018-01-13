@@ -324,13 +324,15 @@ background: #455A64;
 color:white;
 }
 
-/*  Formatting for hte unordered list in the third text box. Sets the text to align along the left side. */
+/*  Formatting for the unordered list in the third text box. Sets the text to align along the left side. */
 
 .container .comparison .col .description ul{
 text-align: left;
 }
 
 
+/* Formatting for the p tags inside the text boxes. Text is aligned to the left sizde. With 5px of padding on
+the left and right sides.*/         
 
 .container .comparison .col .description p{
 
@@ -356,6 +358,8 @@ width:100% !important;
 }
 
 
+/* Sets the subtitles for the MGP page. width to 90% of webpage. Font size is set to 20px. Colour of text is white.
+background colour is set to #466A64. 10% padding left for formatting. */ 
 
 .container .mgp  .subtitle{
 width:90%;
@@ -365,6 +369,8 @@ background: #455A64;
 padding-left: 10%;
 
 }
+
+/* Formatting for text, centered. */ 
 
 .container .mgp .description{
 text-align: center;
